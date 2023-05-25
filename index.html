@@ -160,6 +160,10 @@
                 -ms-flex-direction: column;
                 flex-direction: column;
 			}
+			.subsection{ display: flex; flex-flow: column;}
+			.one{order: 1}
+			.two{order: 2}
+			.three{order: 3;}
         }
 		
 	</style>  
@@ -183,29 +187,29 @@
 				Este estudio NO conlleva riesgos considerables.</p>
 			</div>
 		    <div class="section-three">
-			    <img src="image.jpg">
+			    <img src="C:\Users\HP\Documents\html_and_css\Work work work\jhon-david-3WgkTDw7XyE-unsplash.jpg" alt="placeholder image">
 		    </div>
 	    </div>
     </section>
 
     <section class="section-four">
-	    <div class="sub-section">
-			<img src="icon4.png">
+	    <div class="sub-section one">
+			<img src="C:\Users\HP\Documents\html_and_css\Work work work\icon4.png">
 		    <h2>WHO ARE WE SEEKING?</h2>
 		    <p>We are looking for healthy male children 2-18 years of age who have no history of neurological, psychiatric, or
 			<br>neuro-developmental diagnosis.</p>
 			<h2>¿A QUIÉNES SOLICITAMOS?</h2>
 			<p>Solicitamos la participación de varones sanos de 2 a 18 años de edad sin diagnósticos psiquiátricos, neurológicos o del desarrollo neurológico.</p>
 	    </div>
-	    <div class="sub-section">
-			<img src="icon3.png">
+	    <div class="sub-section two">
+			<img src="C:\Users\HP\Documents\html_and_css\Work work work\icon3.png">
 		    <h2>WHAT DOES IT INVOLVE?</h2>
 		    <p>Your child will be presented with moderate intensity light flashes while we take video of the pupil of his eye. You and your child will also fill out behavior assessment questionnaires that will be screened by a pediatrician.</p>
 			<h2>¿EN QUÉ CONSISTE?</h2>
 			<p>Este estudio determinará si los ojos de los niños, que padecen trastornos relacionados con el gen MECP2, responden de diferente manera a la luz en comparación con niños que han tenido un desarrollo neurológico típico.</p>
 	    </div>
-	    <div class="sub-section">
-			<img class="icons" src="icon2.png">
+	    <div class="sub-section three">
+			<img class="icons" src="C:\Users\HP\Documents\html_and_css\Work work work\icon2.png">
 		    <h2>WHY IS IT IMPORTANT?</h2>
 		    <p>This study will determine if eyes respond differently to light in children suffering from MECP2 gene related disorders compared to neurotypical children.</p>
 			<h2 class="s-head">¿POR QUÉ ES IMPORTANTE?</h2>
@@ -242,11 +246,11 @@
     </section>
 
     <section class="section-seven" action = "https://formspree.io/f/xknaardw" method = "POST">
-		<img src="icon1.png">
+		<img src="C:\Users\HP\Documents\html_and_css\Work work work\icon1.png">
 		<p class="info">After filling in the information below, a member of the study will contact you to screen for eligibility and explain the study.*</p>
 		<p class="info">Después de llenar la información a continuación un miembro del equipo de la investigación se comunicará con usted para evaluar la elegibilidad y explicarle el estudio.*</p>
 	    <form action="test.php" method="post" id="users">
-		    <input type="text" placeholder="Name/Nombre" required>
+		    <input type="text" placeholder="Name/Nombre" required> 
 		    <input type="email" placeholder="Email/Correo Electrónico" required>
 		    <input type="tel" placeholder="Phone Number/Número de teléfono" required>
 			<p class="check"><input type="checkbox" value="Submit" required>I agree to be informed about the study and contacted by the study staff to evaluate my child’s eligibility to participate in the research (H-53284). I understand that my personal data provided for this purpose will not be communicated to Ionis Pharmaceuticals, Inc.</p>
