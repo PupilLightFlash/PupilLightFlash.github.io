@@ -47,6 +47,7 @@
 		    padding-right: 50px;
 			font-size: 1.5em;
 			line-height: 1.4em;
+			text-align: center;
 	    }
 
 	    .section-three img {
@@ -87,7 +88,7 @@
 
 	    .section-five, .section-six, .section-seven {
 		    flex: 1;
-			text-align: justify;
+			text-align: center;
 			font-size: 1.2em;
 	    }
 
@@ -140,11 +141,7 @@
 			padding-right: 120px;
 			color: #03045e;
 		}
-		
-		.s1{
-			text-align: justify;
-		}
-
+	
 		.sub-section p{
 			font-size: 1.2em;
 		}
@@ -156,14 +153,14 @@
 		}
 		
 	
-		@media all and (max-width: 640px){
-    			#site > .wrapper, #footer > .wrapper {
-        			margin: 0;
-        			padding: 40px;
-        			width: auto;
-    			}
-		}
-        
+		@media only screen and (max-width: 700px) {
+            .responsive-row .inner-row-div .border-wrapper .row-slot-wrapper {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+			}
+        }
 		
 	</style>  
 </head>
@@ -186,14 +183,14 @@
 				Este estudio NO conlleva riesgos considerables.</p>
 			</div>
 		    <div class="section-three">
-			    <img src="image.jpg" alt="placeholder image">
+			    <img src="C:\Users\HP\Documents\html_and_css\Work work work\jhon-david-3WgkTDw7XyE-unsplash.jpg" alt="placeholder image">
 		    </div>
 	    </div>
     </section>
 
     <section class="section-four">
 	    <div class="sub-section">
-			<img src="icon4.png">
+			<img src="C:\Users\HP\Documents\html_and_css\Work work work\icon4.png">
 		    <h2>WHO ARE WE SEEKING?</h2>
 		    <p>We are looking for healthy male children 2-18 years of age who have no history of neurological, psychiatric, or
 			<br>neuro-developmental diagnosis.</p>
@@ -201,14 +198,14 @@
 			<p>Solicitamos la participación de varones sanos de 2 a 18 años de edad sin diagnósticos psiquiátricos, neurológicos o del desarrollo neurológico.</p>
 	    </div>
 	    <div class="sub-section">
-			<img src="icon3.png">
+			<img src="C:\Users\HP\Documents\html_and_css\Work work work\icon3.png">
 		    <h2>WHAT DOES IT INVOLVE?</h2>
 		    <p>Your child will be presented with moderate intensity light flashes while we take video of the pupil of his eye. You and your child will also fill out behavior assessment questionnaires that will be screened by a pediatrician.</p>
 			<h2>¿EN QUÉ CONSISTE?</h2>
 			<p>Este estudio determinará si los ojos de los niños, que padecen trastornos relacionados con el gen MECP2, responden de diferente manera a la luz en comparación con niños que han tenido un desarrollo neurológico típico.</p>
 	    </div>
 	    <div class="sub-section">
-			<img class="icon2.png">
+			<img class="icons" src="C:\Users\HP\Documents\html_and_css\Work work work\icon2.png">
 		    <h2>WHY IS IT IMPORTANT?</h2>
 		    <p>This study will determine if eyes respond differently to light in children suffering from MECP2 gene related disorders compared to neurotypical children.</p>
 			<h2 class="s-head">¿POR QUÉ ES IMPORTANTE?</h2>
@@ -220,14 +217,8 @@
 	    <div class="section-five">
 		    <h1>FAQ</h1>
 		    <p><strong>Who can participate in this study?</strong></p>
-        	<p></p>Your child may be eligible to participate if,<p>
-	      	<ul>
-          		<li>2-18 years of age</li>
-	        	<li>Male</li>
-	        	<li>Has normal hearing and vision (glasses/contact lenses are Okay)</li>
-	        	<li>The child's guardian can communicate in English or Spanish</li>   
-          		<li>Able to travel to the Texas Medical Center</li>
-        	</ul>
+        	<p></p>Your child may be eligible to participate if, 2-18 years of age, male, has normal hearing and vision (glasses/contact lenses are Okay), the child's guardian can communicate in English or Spanish, able to travel to the Texas Medical Center.<p>
+	      	
           	<p><strong>Will I get compensated for participating in this study</strong></p>
           	<p>Yes, there will be compensation provided at the end of each visit.</p>
           	<p><strong>How many visits are required for this trial?</strong></p>
@@ -240,15 +231,7 @@
 	    <div class="section-six">
 		    <h1>Preguntas Frecuentes</h1>
 		    <p><strong>¿Quién puede participar en este estudio?</strong></p>
-        	<p>Su hijo podría ser candidato para participar si:</p>
-			<p>
-	      	<ul>
-          		<li>Tiene de 2 a 18 años de edad</li>
-	        	<li>Es varón </li>
-	        	<li>Tiene audición y visión normales (el uso de anteojos o lentes de contacto es aceptable)</li>
-	        	<li>El tutor del niño puede comunicarse en inglés o español</li>   
-          		<li>Dispone de un medio de transporte para llegar al Texas Medical Center.</li>
-        	</ul>
+        	<p>Su hijo podría ser candidato para participar si: Tiene de 2 a 18 años de edad, es varón, tiene audición y visión normales (el uso de anteojos o lentes de contacto es aceptable), el tutor del niño puede comunicarse en inglés o español, dispone de un medio de transporte para llegar al Texas Medical Center.</p>
           	<p><strong>¿Recibiré compensación por participar en este estudio?</strong></p>
           	<p>Sí, se proporcionará una compensación al final de cada encuentro.</p>
           	<p><strong>Cuántas visitas se requieren para participar en este ensayo?</strong></p>
@@ -258,25 +241,24 @@
 	    </div>
     </section>
 
-    <section class="section-seven">
-		<img src="icon1.png">
+    <section class="section-seven" action = "https://formspree.io/f/xknaardw" method = "POST">
+		<img src="C:\Users\HP\Documents\html_and_css\Work work work\icon1.png">
 		<p class="info">After filling in the information below, a member of the study will contact you to screen for eligibility and explain the study.*</p>
 		<p class="info">Después de llenar la información a continuación un miembro del equipo de la investigación se comunicará con usted para evaluar la elegibilidad y explicarle el estudio.*</p>
-	    	<form action = "https://formspree.io/f/xdovvddq" method="POST" id="users">
-		    <input type="text" name="Name" placeholder="Name/Nombre" required>
-		    <input type="email" name="Email" placeholder="Email/Correo Electrónico" required>
-		    <input type="tel" name="Phone" placeholder="Phone Number/Número de teléfono" required>
+	    <form action="test.php" method="post" id="users">
+		    <input type="text" placeholder="Name/Nombre" required>
+		    <input type="email" placeholder="Email/Correo Electrónico" required>
+		    <input type="tel" placeholder="Phone Number/Número de teléfono" required>
 			<p class="check"><input type="checkbox" value="Submit" required>I agree to be informed about the study and contacted by the study staff to evaluate my child’s eligibility to participate in the research (H-53284). I understand that my personal data provided for this purpose will not be communicated to Ionis Pharmaceuticals, Inc.</p>
 			<p class="check">Autorizo que el personal del estudio me informe sobre el proyecto y me contacte para evaluar a mi hijo y determinar la elegibilidad de su participación en el estudio (H-53284). Entiendo que mis datos personales que proporcione son con este propósito y no serán compartidos con Ionis Pharmaceuticals, Inc.</p>
 			<p class="check">*Your information will be registered as intent of interest to participate but will not imply any commitment for your child to participate in this study.
 			<br>*Su información será registrada con el objetivo de mostrar que a usted le interesa que su hijo participe, sin embargo, no implica ningún compromiso de participación en este estudio.</p>
-			<input type="submit" value="Send">
-			<input type="hidden" name="_next" value="https://pupillightflash.github.io/thanks.html" />
-			<input type="text" name="_gotcha" style="display:none" />
+			<input type="submit" value="Submit">
+			
+			
 	    </form>
     </section>
 
     </div>
 </body>
 </html>
- 
