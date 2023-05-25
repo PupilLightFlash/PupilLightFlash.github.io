@@ -140,19 +140,7 @@
 			padding-right: 120px;
 			color: #03045e;
 		}
-		.more-info{
-			text-align: left;
-			font-size: medium;
-			padding-left: 129px;
-			padding-right: 120px;
-		}
-		.more-info-one{
-			text-align: left;
-			font-size: medium;
-			padding-left: 0px;
-			padding-right: 100px;
-			margin-bottom: 0;
-		}
+		
 		.s1{
 			text-align: justify;
 		}
@@ -168,13 +156,21 @@
 		}
 		
 	
-		@media only screen and (max-width: 700px) {
-            .responsive-row .inner-row-div .border-wrapper .row-slot-wrapper {
-                -webkit-box-orient: vertical;
-                -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                flex-direction: column;
-        }
+		@media only screen and (max-width: 600px) {
+		    .section-two, .section-three {
+			    flex-direction: column;
+		    }
+
+		    .section-two img, .section-three img {
+			    width: 100%;
+			    max-width: 300px;
+		    }
+
+		    .section-two p, .section-three p {
+			    flex-basis: 100%;
+		    }
+	    }
+        
 		
 	</style>  
 </head>
