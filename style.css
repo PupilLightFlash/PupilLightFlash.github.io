@@ -34,7 +34,9 @@ body{
     line-height: 1em;
     text-align: center;
 }
-
+.section-one-content{
+    line-height: 1.6;
+}
 #heading p:nth-child(2){
     margin-bottom: 45px;
 }
@@ -141,4 +143,10 @@ body{
     margin-left: auto;
     margin-right: auto;
     max-width: 100%
+}
+
+@media (max-width: 768px) {
+    .section-one-content {
+        line-height: 1.4; /* Adjust this value as needed for mobile */
+    }
 }
